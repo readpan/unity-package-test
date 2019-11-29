@@ -13,8 +13,10 @@ public class PackageTest : MonoBehaviour
     {
         _userPropInfo = new UserPropInfo();
         _userPropInfo.wuxing = 1000;
-        if (!showText)
+        if (showText == null)
             showText = GetComponentInChildren<Text>();
+        if (button == null)
+            button = GetComponentInChildren<Button>();
         showText.text = _userPropInfo.wuxing.ToString();
         button.onClick.AddListener(() =>
         {
@@ -23,4 +25,3 @@ public class PackageTest : MonoBehaviour
         });
     }
 }
-

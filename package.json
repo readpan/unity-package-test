@@ -1,9 +1,12 @@
 {
     "name": "com.readpan.firstpackage",
     "displayName": "First Package",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "unity":"2018.4",
     "description": "第一个测试自定义包",
+    "dependencies": {
+
+    },
     "repository": {
         "type": "git",
         "url": "git@dev.flybot.sg:panjianbo/custom-package.git"

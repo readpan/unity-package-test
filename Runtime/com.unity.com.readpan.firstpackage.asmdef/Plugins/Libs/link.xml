@@ -1,4 +1,0 @@
-<linker>
-    <assembly fullname="Hjd.Bamboo" preserve="all" />
-    <assembly fullname="LitJSON" preserve="all" />
-</linker>

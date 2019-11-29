@@ -3,5 +3,9 @@
     "displayName": "First Package",
     "version": "0.0.2",
     "unity":"2019.1",
-    "description": "第一个测试自定义包"
+    "description": "第一个测试自定义包",
+    "repository": {
+        "type": "git",
+        "url": "git@dev.flybot.sg:panjianbo/custom-package.git"
+      }
 }

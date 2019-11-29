@@ -1,11 +1,11 @@
 {
     "name": "com.readpan.firstpackage",
     "displayName": "First Package",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "unity":"2018.4",
     "description": "第一个测试自定义包",
     "dependencies": {
-
+      "com.readpan.bamboo":"0.0.1"
     },
     "repository": {
         "type": "git",

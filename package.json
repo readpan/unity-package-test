@@ -4,9 +4,7 @@
     "version": "0.0.11",
     "unity":"2018.4",
     "description": "第一个测试自定义包",
-    "dependencies": {
-      "com.readpan.bamboo":"0.0.1"
-    },
+    "dependencies": {},
     "repository": {
         "type": "git",
         "url": "git@dev.flybot.sg:panjianbo/custom-package.git"
